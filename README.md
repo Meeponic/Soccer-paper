@@ -2,7 +2,7 @@
 
 Soccer paper game written in Raylib 
 
-The game does not have an online model so far, you play with yourself.
+The game does not have an online mode so far, you play with yourself.
 
 <p>
 <img src="SoccerPaper.gif" alt="" width="500" height="400" >
