@@ -808,7 +808,7 @@ void Mouse::SideLastPointsSet(){
 
 bool Mouse::CalculateRange(){
            
-        // For all points expected specified cases, default points
+    // For all points expected specified cases, default points
     if (last_points == false){
     
                 x_vector = array_xy[selected_point].position.x - array_xy[previous_point].position.x;
