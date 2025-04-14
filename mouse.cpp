@@ -817,7 +817,7 @@ bool Mouse::CalculateRange(){
                 n_previous_default = array_xy[previous_point].conditions_array_xy.size();
                 n_selected_default = array_xy[selected_point].conditions_array_xy.size();
     
-        for (int i = 0; i< n_previous_default; i++){
+        for (int i = 0; i < n_previous_default; i++){
             
                 if (array_xy[previous_point].conditions_array_xy[i].x == x_vector && 
                     array_xy[previous_point].conditions_array_xy[i].y == y_vector){
