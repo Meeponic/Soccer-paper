@@ -17,7 +17,6 @@ void Mouse::InitializePosArray() {
         pos_array[1].position = array_xy[selected_point].position;
         pos_array[i].position = {(Vector2){0, 0}};
 
-          
     }
 
 }

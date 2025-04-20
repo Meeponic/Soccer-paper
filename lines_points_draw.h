@@ -140,12 +140,11 @@ class Button {
         void ButtonUndoClick();
         void DrawText();
         void DrawPlayersRec();
-
+        
         void DrawResetButton();
         void ButtonResetHover();
         void ButtonResetClick();
         void ResetInitialize(bool reset_state);
-
 
 
         Rectangle button_undo_coordinates;
@@ -169,7 +168,6 @@ class Button {
         bool button_reset_click;
         Vector2 button_reset_text_position;
 
-        int button_reset_state_count;
 
 };
 
